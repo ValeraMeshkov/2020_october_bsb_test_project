@@ -1,6 +1,6 @@
 /**
  *  Функция преобразовывает телефон в строку в формате +1 (111) 111-1111
- *  @param {Number} num - Номер телефона
+ *  @param {String} num - Номер телефона
  */
 export function formatPhone(num) {
   return `+1 ${String(num)
@@ -10,7 +10,7 @@ export function formatPhone(num) {
 
 /**
  *  Функция преобразовывает строку в формат 'Adwfwe Vedwedwe Adewdwe'
- *  @param {Number} str - Номер телефона
+ *  @param {String} str - Строка
  */
 export function everyFirstLetterUpp(str) {
   return str
